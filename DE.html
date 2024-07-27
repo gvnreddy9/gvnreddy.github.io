@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Engineering Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1 class="page_h">Data Engineering Projects</h1>
+        <a href="index.html", class="home_link">Home</a>
+    </div>
+    
+    <section id="project" style="padding-top: 12vh;"  style="margin-bottom: auto;">
+        <h1 class="project_title">Spark Structured Strming</h1>
+        <div class="project-container">
+            <div class="project-pic-container">
+                <img
+                src="./assets/sparkStrmingimg.png"
+                alt="strming-project"
+                class="project-pic"
+                />
+            </div>
+            <div class="text-and-buttons">
+                <div class="project-text-container">
+                    <div class="Tools">
+                        <h3 class="t1">Tools: </h3>
+                        <h2 class="t2">Pyspark, Python and DataBricks</h2>
+                    </div>
+                    <p class="project-text"><br>Structured Streaming is built on top of Spark SQL engine of Apache Spark 
+                        which will deal with running the stream as the data continues to receive. Just like the other engines 
+                        of Spark, it is scalable as well as it is fault-tolerant. Structured Streaming enhances Spark Data Frame 
+                        APIs with streaming features. 
+                        <br>Structured Streaming also ensures recovery of any fault as soon as possible with the help of checkpoints and caching options. In summary, Structured Streaming is a scalable, fault-tolerant and nearly instant operations.
+                        <br>    
+                    </p>
+                </div>
+                <div class="pro-btn-container">
+                    <button
+                      class="btn btn-color-3"
+                      onclick="window.open('https://github.com/gvnreddy9/SparkDataStreamingProject')">
+                      GitHub
+                    </button>
+                </div>
+            </div>
+         </div>
+    </section>
+
+    <section id="project" style=margin-top:0 >
+        <h1 class="project_title">Incremental Data Ingestion</h1>
+        <div class="project-container">
+            <div class="project-pic-container">
+                <img
+                src="./assets/databricks.png"
+                alt="Incremental-Data Ingestion"
+                class="project-pic"
+                />
+            </div>
+            <div class="text-and-buttons">
+                <div class="project-text-container">
+                    <div class="Tools">
+                        <h3 class="t1">Tools: </h3>
+                        <h2 class="t2">Pyspark, Python and DataBricks</h2>
+                    </div>
+                    <p class="project-text"><br>
+                        </br><br>This project was POC of incremental data load using databricks and store in azure datalake if mainly used for
+                        the if data we already there if we re ingest so we no need of duplicate data so if we implement the incremental ingestion
+                        so we can solve that problem
+                        <br>    
+                    </p>
+                </div>
+                <div class="pro-btn-container">
+                    <button
+                      class="btn btn-color-3"
+                      onclick="window.open('https://github.com/gvnreddy9/SparkIncrementalIngestion')">
+                      GitHub
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a onclick="goBack()">Back to Homepage</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>&#10024 Crafted with curiosity &#128640 &#169; 2024 Gvnreddy</p>
+      </footer>
+      <script src="script.js"></script>
+</body>
+</html>3
